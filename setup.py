@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(name='blockchain',
-      version='1.4.4',
+      version='1.4.3',
       description='Blockchain API library (v1)',
       author='Blockchain.info',
       author_email='support@blockchain.zendesk.com',
@@ -11,7 +11,7 @@ setup(name='blockchain',
       license='MIT',
       packages=['blockchain', 'blockchain/v2'],
       keywords='blockchain.info api blockchain',
-      install_requires=['enum-compat', 'future'],
+      install_requires=['enum34', 'future'],
       classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
